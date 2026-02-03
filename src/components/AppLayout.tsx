@@ -252,7 +252,7 @@ const HomePage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurre
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
             <div className="relative">
               <div className="aspect-[3/4] overflow-hidden">
-                <img src="https://d64gsuwffb70l.cloudfront.net/6981759f96c5e36bfd4bb367_1770092019846_327875d8.png" alt="Jerry Saltz" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" />
+                <img src="https://i.ibb.co/HQZZQwL/r9y-Oa-Igl-400x400-1.jpg" alt="Jerry Saltz" className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700" />
               </div>
               <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-neutral-900 hidden lg:block" />
             </div>
@@ -337,7 +337,7 @@ const AboutPage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurr
               <div className="sticky top-32">
                 <div className="relative">
                   <div className="aspect-[3/4] overflow-hidden">
-                    <img src="https://d64gsuwffb70l.cloudfront.net/6981759f96c5e36bfd4bb367_1770092019846_327875d8.png" alt="Jerry Saltz" className="w-full h-full object-cover" />
+                    <img src="https://i.ibb.co/HQZZQwL/r9y-Oa-Igl-400x400-1.jpg" alt="Jerry Saltz" className="w-full h-full object-cover" />
                   </div>
                   <div className="absolute -bottom-6 -right-6 bg-neutral-900 text-white p-6 hidden lg:block">
                     <p className="text-sm uppercase tracking-widest">Jerry Saltz</p>
