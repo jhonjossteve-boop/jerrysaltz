@@ -576,7 +576,7 @@ const ContactPage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCu
     setIsSubmitting(true);
     setError('');
     try {
-      const response = await fetch('https://formspree.io/f/mdadjndn', {
+      const response = await fetch('https://formspree.io/f/movgzeqn', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
