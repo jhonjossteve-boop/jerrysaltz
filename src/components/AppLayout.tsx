@@ -109,10 +109,10 @@ const Footer: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurrent
               Art critic, writer, and cultural observer. Exploring the boundaries of contemporary art and challenging conventional perspectives.
             </p>
             <div className="flex items-center space-x-6">
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
+              <a href="https://instagram.com/jerrysaltz" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
+              <a href="https://twitter.com/jerrysaltz" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
                 <Twitter className="w-5 h-5" />
               </a>
               <a href="mailto:contact@jerrysaltz.com" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Email">
@@ -915,7 +915,7 @@ const MentorshipPage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ se
                   <label htmlFor="howHeard" className="block text-sm text-neutral-700 mb-2">How did you hear about this program?</label>
                   <select id="howHeard" name="howHeard" value={formData.howHeard} onChange={handleChange} className="w-full border border-neutral-300 px-4 py-3 text-neutral-900 focus:outline-none focus:border-neutral-900 transition-colors duration-300 bg-white">
                     <option value="">Select an option</option>
-                    <option value="social-media">Social Media</option>
+                    <option value="-media">Social Media</option>
                     <option value="jerry-writing">Jerry's Writing</option>
                     <option value="friend">Friend/Colleague</option>
                     <option value="publication">Publication/Article</option>
