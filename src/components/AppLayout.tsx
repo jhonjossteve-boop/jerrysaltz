@@ -115,7 +115,7 @@ const Footer: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurrent
               <a href="https://twitter.com/jerrysaltz" target="_blank" rel="noopener noreferrer" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="mailto:contact@jerrysaltz.com" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Email">
+              <a href="mailto:jerrysaltz@artlover.com" className="text-neutral-400 hover:text-white transition-colors duration-300" aria-label="Email">
                 <Mail className="w-5 h-5" />
               </a>
             </div>
@@ -621,7 +621,7 @@ const ContactPage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCu
                       <Mail className="w-5 h-5 text-neutral-400 mt-1" />
                       <div>
                         <p className="text-sm text-neutral-500 mb-1">Email</p>
-                        <a href="mailto:contact@jerrysaltz.com" className="text-neutral-900 hover:text-neutral-600 transition-colors duration-300">contact@jerrysaltz.com</a>
+                        <a href="mailto:jerrysaltz@artlover.com" className="text-neutral-900 hover:text-neutral-600 transition-colors duration-300">jerrysaltz@artlover.com</a>
                       </div>
                     </div>
                     <div className="flex items-start gap-4">
