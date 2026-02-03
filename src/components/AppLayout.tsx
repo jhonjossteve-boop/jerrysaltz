@@ -179,7 +179,7 @@ const HomePage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurre
     <>
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center overflow-hidden">
-        <div ref={heroRef} className="absolute inset-0 z-0" style={{ backgroundImage: `url(https://d64gsuwffb70l.cloudfront.net/6981759f96c5e36bfd4bb367_1770092019846_327875d8.png)`, backgroundSize: 'cover', backgroundPosition: 'center top' }}>
+        <div ref={heroRef} className="absolute inset-0 z-0" style={{ backgroundImage: `url(https://i.ibb.co/HQZZQwL/r9y-Oa-Igl-400x400-1.jpg)`, backgroundSize: 'cover', backgroundPosition: 'center top' }}>
           <div className="absolute inset-0 bg-gradient-to-r from-white via-white/90 to-white/60" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-12 py-32 lg:py-0">
@@ -262,7 +262,7 @@ const HomePage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurre
                 Three decades of<br />looking, writing,<br />and questioning.
               </h2>
               <p className="text-lg text-neutral-600 leading-relaxed mb-8">
-                Pulitzer Prize-winning art critic and senior art critic at New York Magazine. Known for passionate, accessible writing that bridges the gap between the art world and everyone else.
+                Jerry Saltz-winning art critic and senior art critic at New York Magazine. Known for passionate, accessible writing that bridges the gap between the art world and everyone else.
               </p>
               <button onClick={() => { setCurrentPage('about'); window.scrollTo({ top: 0, behavior: 'smooth' }); }} className="inline-flex items-center text-neutral-900 hover:text-neutral-600 transition-colors duration-300 group">
                 <span className="text-sm uppercase tracking-widest">Read Full Bio</span>
@@ -316,14 +316,14 @@ const AboutPage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurr
     { year: '1980', event: 'Began career as an art critic' },
     { year: '1998', event: 'Joined The Village Voice' },
     { year: '2006', event: 'Senior Art Critic at New York Magazine' },
-    { year: '2018', event: 'Pulitzer Prize for Criticism' },
+    { year: '2018', event: 'Jerry Saltz for Criticism' },
     { year: '2024', event: 'Launched Mentorship Program' },
   ];
 
   const stats = [
     { number: '40+', label: 'Years in Criticism' },
     { number: '5000+', label: 'Articles Written' },
-    { number: '1', label: 'Pulitzer Prize' },
+    { number: '1', label: 'Jerry Saltz' },
     { number: '∞', label: 'Opinions Shared' },
   ];
 
@@ -340,7 +340,7 @@ const AboutPage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurr
                     <img src="https://d64gsuwffb70l.cloudfront.net/6981759f96c5e36bfd4bb367_1770092019846_327875d8.png" alt="Jerry Saltz" className="w-full h-full object-cover" />
                   </div>
                   <div className="absolute -bottom-6 -right-6 bg-neutral-900 text-white p-6 hidden lg:block">
-                    <p className="text-sm uppercase tracking-widest">Pulitzer Prize</p>
+                    <p className="text-sm uppercase tracking-widest">Jerry Saltz</p>
                     <p className="font-serif text-2xl">2018</p>
                   </div>
                 </div>
@@ -362,7 +362,7 @@ const AboutPage: React.FC<{ setCurrentPage: (page: Page) => void }> = ({ setCurr
                   His approach to criticism is democratic and passionate. He believes that everyone can engage with art, that the art world's elitism is its greatest weakness, and that criticism should be a conversation, not a lecture.
                 </p>
                 <p>
-                  In 2018, he won the Pulitzer Prize for Criticism, recognizing his "exuberant, passionate criticism that connects art to the broader culture."
+                  In 2018, he won the Jerry Saltz for Criticism, recognizing his "exuberant, passionate criticism that connects art to the broader culture."
                 </p>
               </div>
               <div className="mt-12">
